@@ -1,0 +1,3 @@
+TransformedTargetRegressor(func=<function log_target at 0x0000025913911120>,
+                           inverse_func=<function exp_log at 0x0000025918F9EF80>,
+                           regressor=RandomForestRegressor())

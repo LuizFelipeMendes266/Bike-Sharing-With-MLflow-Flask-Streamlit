@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/felip/Desktop/bike-end-to-end/notebook/mlruns/729910338415843698/2803cae31e1541b7acbdf74f25ca6c86/artifacts
+end_time: 1678909030388
+entry_point_name: ''
+experiment_id: '729910338415843698'
+lifecycle_stage: active
+run_id: 2803cae31e1541b7acbdf74f25ca6c86
+run_name: learned-dove-642
+run_uuid: 2803cae31e1541b7acbdf74f25ca6c86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678908995320
+status: 3
+tags: []
+user_id: felip

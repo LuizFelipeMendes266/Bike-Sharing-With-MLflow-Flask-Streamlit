@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/felip/Desktop/bike-end-to-end/notebook/mlruns/963365401817121696/834453255b0f49bb975a17250493077c/artifacts
+end_time: 1678975263965
+entry_point_name: ''
+experiment_id: '963365401817121696'
+lifecycle_stage: active
+run_id: 834453255b0f49bb975a17250493077c
+run_name: burly-deer-656
+run_uuid: 834453255b0f49bb975a17250493077c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678975244167
+status: 3
+tags: []
+user_id: felip

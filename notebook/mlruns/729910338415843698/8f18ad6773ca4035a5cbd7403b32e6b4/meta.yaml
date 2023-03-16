@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/felip/Desktop/bike-end-to-end/notebook/mlruns/729910338415843698/8f18ad6773ca4035a5cbd7403b32e6b4/artifacts
+end_time: 1678979295072
+entry_point_name: ''
+experiment_id: '729910338415843698'
+lifecycle_stage: active
+run_id: 8f18ad6773ca4035a5cbd7403b32e6b4
+run_name: able-fowl-426
+run_uuid: 8f18ad6773ca4035a5cbd7403b32e6b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678979277049
+status: 3
+tags: []
+user_id: felip

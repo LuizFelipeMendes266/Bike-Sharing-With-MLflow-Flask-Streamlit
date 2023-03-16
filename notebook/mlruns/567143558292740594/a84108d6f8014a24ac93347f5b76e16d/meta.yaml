@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/felip/Desktop/bike-end-to-end/notebook/mlruns/567143558292740594/a84108d6f8014a24ac93347f5b76e16d/artifacts
+end_time: 1678908441597
+entry_point_name: ''
+experiment_id: '567143558292740594'
+lifecycle_stage: active
+run_id: a84108d6f8014a24ac93347f5b76e16d
+run_name: vaunted-wolf-150
+run_uuid: a84108d6f8014a24ac93347f5b76e16d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678908362301
+status: 3
+tags: []
+user_id: felip

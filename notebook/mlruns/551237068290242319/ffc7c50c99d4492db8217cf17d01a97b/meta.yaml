@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/felip/Desktop/bike-end-to-end/notebook/mlruns/551237068290242319/ffc7c50c99d4492db8217cf17d01a97b/artifacts
+end_time: 1678907682810
+entry_point_name: ''
+experiment_id: '551237068290242319'
+lifecycle_stage: active
+run_id: ffc7c50c99d4492db8217cf17d01a97b
+run_name: agreeable-ant-856
+run_uuid: ffc7c50c99d4492db8217cf17d01a97b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678906105315
+status: 3
+tags: []
+user_id: felip
