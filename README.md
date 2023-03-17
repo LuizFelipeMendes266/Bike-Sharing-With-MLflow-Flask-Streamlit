@@ -64,7 +64,18 @@ Finally, we applied all of this to a pipeline using the Random Forest Regressor.
  
 ## Results
 
-A summary of the key results and insights gained from the project, including any visualizations or analysis outputs.
+Below, we have the obtained values:
+
+| Score Type | Score Value |
+|------------|-------------|
+| R2 Test Score | 0.85 |
+| Test MRE | 4667.54 |
+| Cross Validation Score | 0.817 |
+
+As described in the notebook, I used cross-validation with TimeSeriesSplit to generate the Cross Validation Score.
+
+# Mlflow Metrics
+
 
 ## Usage
 
