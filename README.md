@@ -72,9 +72,9 @@ Below, we have the obtained values:
 |  Meam Squared Error Test Score | 4667.54 |
 | Cross Validation Score | 0.817 |
 
-As described in the notebook, I used cross-validation with TimeSeriesSplit to generate the Cross Validation Score. As we can see,, i applied the model in the whole test dataset. Below, we have the obtained values:
-![Predictions](test_predictions.PNG)
+As described in the notebook, I used cross-validation with TimeSeriesSplit to generate the Cross Validation Score. As we can see,i applied the model in the whole test dataset. Below, we have the obtained values:
 
+![Predictions](test_predictions.PNG)
 
 ## Usage
 
