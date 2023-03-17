@@ -34,7 +34,7 @@ The test dataset has the same features. I transformed the datetime in both datas
 
 ## Methodology
 
-In the modeling process, escolhi criar uma pipeline que utiliza das funções que construí no notebook. A função rush_hour nos fornece uma nova coluna "peak", classificando ocorrências de horário de pico, sendo  1 para Verdadeiro e 0 para Falso.
+In the modeling process, I chose to create a pipeline that uses the functions I built in the notebook. The rush_hour function provides us with a new column "peak", classifying peak hour occurrences, where 1 represents True and 0 represents False.
 
 ```python
 def rush_hour(X):
@@ -44,6 +44,7 @@ def rush_hour(X):
   df['peak']=np.where(c1,1,np.where(c2,1,0))
   return df
   ```
+  
 
 
 ## Results
