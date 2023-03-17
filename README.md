@@ -44,9 +44,24 @@ def rush_hour(X):
   df['peak']=np.where(c1,1,np.where(c2,1,0))
   return df
   ```
-  
+As shown in the notebook, the distribution of the target feature is improved when we apply a log transformation. Therefore, I created a function for this transformation as well as the inverse log transformation.
+  ```python
+  def log_target(target):
+     return np.log(target)
 
+  def exp_log(target):
+     return np.exp(target)
+   ```
+Finally, we applied all of this to a pipeline using the Random Forest Regressor. We used the TransformedTargetRegressor from sklearn to apply the transformation to the target column and fit the model to the data.
 
+  ```python
+  pipeline=Pipeline([
+          ('transformer_pico', FunctionTransformer(rush_hour)),
+          ('target_transform_plus_regressor',TransformedTargetRegressor(regressor=RandomForestRegressor(),func=log_target,inverse_func=exp_log))
+])
+```
+
+ 
 ## Results
 
 A summary of the key results and insights gained from the project, including any visualizations or analysis outputs.
