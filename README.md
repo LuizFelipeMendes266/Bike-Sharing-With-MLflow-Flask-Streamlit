@@ -34,7 +34,17 @@ The test dataset has the same features. I transformed the datetime in both datas
 
 ## Methodology
 
-An overview of the methodology used in the project, including any statistical or machine learning techniques used.
+In the modeling process, escolhi criar uma pipeline que utiliza das funções que construí no notebook. A função rush_hour nos fornece uma nova coluna "peak", classificando ocorrências de horário de pico, sendo  1 para Verdadeiro e 0 para Falso.
+
+```python
+def rush_hour(X):
+  df=X.copy()
+  c1=((df['weekday'].isin([0,6])) & ((df['hour']>=10) & (df['hour']<=17)))
+  c2=((df['weekday'].isin([0,6])==False) & (((df['hour']>=17) & (df['hour']<=19)) | (df['hour']==8)))
+  df['peak']=np.where(c1,1,np.where(c2,1,0))
+  return df
+  ```
+
 
 ## Results
 
