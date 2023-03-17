@@ -1,6 +1,6 @@
-# Project Title
+# Bike Sharing Demand with Mlflow, Flask and Streamlit
 
-A brief description of the project.
+In this project, our goal is to perform an analysis on the Bike Sharing Demand dataset, seeking to explore different ways of consuming a generated model. In this case, I used Mlflow to register the model and Flask and Streamlit applications to serve the model. A brief exploratory analysis was done, which can be consulted in the notebook.
 
 ## Table of Contents
 
