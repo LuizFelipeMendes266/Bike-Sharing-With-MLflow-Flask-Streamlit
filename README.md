@@ -112,6 +112,11 @@ Resulting:
   Local URL: http://localhost:8501
   Network URL: http://192.168.0.102:8501
 ```
+Selecionando os valores ao lado, podemos clicar em "predict" e recebermos a previsão do nosso modelo.
+
+![Streamlit app](streamlit.PNG)
+
+### Flask
 
 
 
