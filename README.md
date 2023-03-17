@@ -2,7 +2,6 @@
 
 ## Table of Contents
 
-- [Project Title](#project-title)
 - [Project Description](#project-description)
 - [Data](#data)
 - [Methodology](#methodology)
