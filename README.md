@@ -80,7 +80,14 @@ In the "Mlflow Metrics" section of the notebook, we have the process of register
 ```
 python train.py
 ```
-
+Ao executar o script train..py, uma past "mlruns" será gerada com todas as especificações. O próximo comando é:
+```
+mlflow ui
+```
+Resultando no local do experimento:
+```
+INFO:waitress:Serving on http://127.0.0.1:5000
+```
 ## Usage
 
 Instructions for how to use the project, including any necessary commands and scripts. This should include details on how to reproduce the results of the project, as well as any additional information necessary for users to understand and interpret the outputs.
