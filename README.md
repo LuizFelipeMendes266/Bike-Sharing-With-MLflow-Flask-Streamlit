@@ -7,6 +7,7 @@
 - [Methodology](#methodology)
 - [Results](#results)
 - [Usage](#usage)
+- [Installation](#installation)
 
 ## Project Description
 
