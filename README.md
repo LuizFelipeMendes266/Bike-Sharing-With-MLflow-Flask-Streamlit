@@ -136,6 +136,18 @@ As we can see, i applied the data in JSON format that is in the repository, and 
 
 ![Flask app](flask.PNG)
 
+## Installation
+
+To install the required packages for this project, please follow these steps:
+
+1. Make sure you have Python 3.6 or later installed.
+2. Clone the repository to your local machine.
+3. Navigate to the project directory in your terminal or command prompt.
+4. Create a new virtual environment and activate it. You can use `virtualenv`, `conda`, or any other virtual environment tool of your choice.
+5. Install the required packages by running the following command:
+```
+pip install -r requirements.txt
+```
 
 
 
