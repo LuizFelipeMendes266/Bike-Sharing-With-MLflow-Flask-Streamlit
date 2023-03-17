@@ -74,6 +74,8 @@ Below, we have the obtained values:
 
 As described in the notebook, I used cross-validation with TimeSeriesSplit to generate the Cross Validation Score.
 
+## Usage
+
 ### Mlflow Metrics
 
 In the "Mlflow Metrics" section of the notebook, we have the process of registering images, metrics, and the model in question. The experiment is called "Prediction Bike". Therefore, I created a python file called "train.py" which is our notebook. To generate the experiment, we execute the script in the terminal with the command:
@@ -91,7 +93,3 @@ INFO:waitress:Serving on http://127.0.0.1:5000
 ![Mlflow Experiment](mlflowexperiment.PNG)
 
 As we can see, we have all the images, metrics, and the saved model, as well as specifications about the experiment. Mlflow is a great tool!
-
-## Usage
-
-Instructions for how to use the project, including any necessary commands and scripts. This should include details on how to reproduce the results of the project, as well as any additional information necessary for users to understand and interpret the outputs.
