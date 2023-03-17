@@ -104,5 +104,14 @@ You can take a look at the Python script app_streamlit.py that I created. Basica
 ```
 streamlit run app_streamlit.py
 ```
+Resulting:
+
+```
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.0.102:8501
+```
+
 
 
