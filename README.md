@@ -132,6 +132,10 @@ Resulting
 ```
 Running on http://127.0.0.1:5000
 ```
+As we can see, i applied the data in JSON format that is in the repository, and received the prediction using Thunder in VSCode. You can use any platform of your choice to make the request, just make sure to use the correct endpoint URL with the HTTP POST method.
+
+![Flask app](flask.PNG)
+
 
 
 
