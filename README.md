@@ -69,7 +69,7 @@ Below, we have the obtained values:
 | Score Type | Score Value |
 |------------|-------------|
 | R2 Test Score | 0.85 |
-| Test MRE | 4667.54 |
+|  Meam Squared Error Test Score | 4667.54 |
 | Cross Validation Score | 0.817 |
 
 As described in the notebook, I used cross-validation with TimeSeriesSplit to generate the Cross Validation Score.
