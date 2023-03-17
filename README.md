@@ -118,5 +118,20 @@ Selecionando os valores ao lado, podemos clicar em "predict" e recebermos a prev
 
 ### Flask
 
+Now, take a look in the app_flask.py. This code defines a Python Flask application that listens to a HTTP POST request to the /bike_sharing endpoint. When a POST request is received, the application reads the JSON payload from the request, converts it to a Pandas dataframe, and loads a machine learning model using MLflow.
+
+Run the command below:
+```
+set FLASK_APP=app_flask.py
+```
+And
+```
+flask run
+````
+Resulting
+```
+Running on http://127.0.0.1:5000
+```
+
 
 
