@@ -80,11 +80,11 @@ In the "Mlflow Metrics" section of the notebook, we have the process of register
 ```
 python train.py
 ```
-Ao executar o script train..py, uma past "mlruns" será gerada com todas as especificações. O próximo comando é:
+After running the train.py script, a "mlruns" directory will be generated with all the experiment specifications. The next command is:
 ```
 mlflow ui
 ```
-Resultando no local do experimento:
+Resulting in the experiment location:
 ```
 INFO:waitress:Serving on http://127.0.0.1:5000
 ```
