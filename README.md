@@ -100,8 +100,9 @@ As we can see, we have all the images, metrics, and the saved model, as well as 
 
 Streamlit is an open-source Python library that allows you to create and share custom web apps for your machine learning models and data analysis. With Streamlit, you can build interactive apps with simple Python scripts, without needing to know any HTML, CSS, or JavaScript. 
 
-You can take a look at the Python script app_streamlit.py that I created. Basically, I select the latest version of the model in the mlflow experiment that was made. From there, I created inputs for each feature in the application, so that the user can select the values of the features and receive the prediction made by the loaded mlflow model.Finally, toconsult the app, run the command below:
+You can take a look at the Python script app_streamlit.py that I created. Basically, I select the latest version of the model in the mlflow experiment that was made. From there, I created inputs for each feature in the application, so that the user can select the values of the features and receive the prediction made by the loaded mlflow model. Finally, to consult the app, run the command below:
 ```
 streamlit run app_streamlit.py
 ```
+
 
