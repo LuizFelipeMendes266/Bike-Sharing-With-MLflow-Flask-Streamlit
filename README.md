@@ -76,6 +76,13 @@ As described in the notebook, I used cross-validation with TimeSeriesSplit to ge
 
 ### Mlflow Metrics
 
+In the "Mlflow Metrics" section of the notebook, we have the process of registering images, metrics, and the model in question. The experiment is called "Prediction Bike". Therefore, I created a python file called "train.py" which is our notebook. To generate the experiment, we execute the script in the terminal with the command:
+````
+ python train.py
+ ```
+ 
+
+
 
 ## Usage
 
