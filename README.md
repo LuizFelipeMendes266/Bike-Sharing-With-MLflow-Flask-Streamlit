@@ -88,6 +88,7 @@ Resulting in the experiment location:
 ```
 INFO:waitress:Serving on http://127.0.0.1:5000
 ```
+![Mlflow Experiment](mlflowexperiment.PNG)
 ## Usage
 
 Instructions for how to use the project, including any necessary commands and scripts. This should include details on how to reproduce the results of the project, as well as any additional information necessary for users to understand and interpret the outputs.
